@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(200,200,200);
+}
+
+fieldset {
+	color: rgb(150,0,0);
+	font: arial, sans-serif;
+	border-color: rgb(0,50,100);
+}
+
+legend {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+	color: rgb(0,50,100);
+	border-color: rgb(0,50,100);
+}
+
+label {
+	color: rgb(0,50,100);
+	font: verdana, sans-serif;
+}
+
+input, select {
+	color: rgb(0,50,100);
+	border-color: rgb(0,50,100);
+}
+
+form {
+	background-color: rgb(255,255,255);
+	padding: 15px;
+
+	/*
+	centraliza form usando propriedade 'auto' para margens
+	direita e esquerda (largura-width da div)/2
+	*/
+	margin: 0 auto;
+	border: 2px solid rgb(0,50,100);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+h2 {
+	text-align: center;
+	color: rgb(0,50,100);
+}
+
+.centraliza {
+	text-align: center;
+}
